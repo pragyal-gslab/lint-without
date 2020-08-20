@@ -59,7 +59,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run pre-commit-check"
+      "pre-commit": "chmod +x pre-commit-script.sh && npm run pre-commit-check"
     }
   }
 }
